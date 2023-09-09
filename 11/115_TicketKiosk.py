@@ -12,5 +12,6 @@ def book_movie(movie: Movie) -> str:
     wish_template = '''Билет на " %s " в " %s " на %s забронирован.'''
     return wish_template % (movie.title, movie.place, movie.time)
 
+# Всем привет
 
 print(book_movie(test_movie))
